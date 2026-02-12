@@ -16,7 +16,10 @@ A backend service that manages customer transactions with configurable workflow 
 3. Press F5 to run
 4. Navigate to `https://localhost:PORT/swagger`
 
-The database is created automatically on first run.
+**Database:** Created automatically on first run using LocalDB. The app calls `Database.Migrate()` on startup which:
+- Creates the database if it doesn't exist
+- Applies all migrations
+- Seeds initial statuses and transitions
 
 ## API Endpoints
 
