@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TransactionWorkflowEngine.Tests/TransactionWorkflowEngine.Tests.csproj" />
+  <Project Path="TransactionWorkflowEngine/TransactionWorkflowEngine.csproj" />
+</Solution>

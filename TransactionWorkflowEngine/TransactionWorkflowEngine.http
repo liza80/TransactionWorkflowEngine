@@ -1,0 +1,6 @@
+@TransactionWorkflowEngine_HostAddress = http://localhost:5228
+
+GET {{TransactionWorkflowEngine_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
